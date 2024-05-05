@@ -1,3 +1,5 @@
+<h1>This is my own personal config of Atlas OS. It includes some extra programs and applications I use daily.</h1>
+
 <h1 align="center">
   <a href="http://atlasos.net" target="_blank"><img src="https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/github-banner.png" alt="Atlas" width="800"></a>
 </h1>
