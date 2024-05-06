@@ -364,7 +364,10 @@ tasks:
   #
   # Installing applications that I use
   # Also installs Chocolatey
+  #
   # UPDATE: This worked, but not in the way I expected.
+  # These will be disabled and most likely replaced with
+  # a PowerShell script, once I learned it.
   # -----------------------------------------------------
   # - tweaks\installs\install-chocolatey.yml
   # - tweaks\installs\winget-installs.yml
