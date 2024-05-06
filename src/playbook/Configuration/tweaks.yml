@@ -364,7 +364,8 @@ tasks:
   #
   # Installing applications that I use
   # Also installs Chocolatey
+  # UPDATE: This worked, but not in the way I expected.
   # -----------------------------------------------------
-  - tweaks\installs\install-chocolatey.yml
-  - tweaks\installs\winget-installs.yml
+  # - tweaks\installs\install-chocolatey.yml
+  # - tweaks\installs\winget-installs.yml
   # - tweaks\installs\chocolatey-installs.yml this currently has nothing.
