@@ -22,6 +22,12 @@ actions:
     weight: 10
     wait: true
     exeDir: true
+  # Extra line to copy Posy's Cursors into windir
+  - !cmd:
+    command: 'robocopy "Cursors" "%windir%\Cursors" /E /PURGE /IM /IT /NP > nul'
+    weight: 10
+    wait: true
+    exeDir: true
 
     # Prevent annoying notifications during deployment
   - !taskKill: {name: 'explorer'}

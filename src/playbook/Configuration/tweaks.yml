@@ -163,7 +163,8 @@ tasks:
   #  qol\appearance                                                            #
   # -------------------------------------------------------------------------- #
   - tweaks\qol\appearance\blue-tooltips.yml
-  - tweaks\qol\appearance\atlas-theme.yml
+  - tweaks\qol\appearance\atlas-theme.
+  - tweaks\qol\appearance\alphas-theme.yml
   - tweaks\qol\appearance\disallow-theme-changes.yml
 
   # -------------------------------------------------------------------------- #
@@ -355,3 +356,15 @@ tasks:
   - tweaks\misc\add-newUsers-script.yml
   - tweaks\scripts\script-power.yml # Done last on purpose
   - tweaks\misc\enable-notifications.yml
+
+  # -----------------------------------------------------
+  #                     Installation
+  # -----------------------------------------------------
+  # >>> Description <<<
+  #
+  # Installing applications that I use
+  # Also installs Chocolatey
+  # -----------------------------------------------------
+  - tweaks\installs\install-chocolatey.yml
+  - tweaks\installs\winget-installs.yml
+  # - tweaks\installs\chocolatey-installs.yml this currently has nothing.

@@ -8,6 +8,7 @@ $atlasModules = "$windir\AtlasModules"
 
 function ThemeMRU {
     New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes" -Name "ThemeMRU" -Value "$((@(
+        "Alpha.theme",
         "atlas-v0.4.x-dark.theme",
         "atlas-v0.4.x-light.theme",
         "atlas-v0.3.x-dark.theme",

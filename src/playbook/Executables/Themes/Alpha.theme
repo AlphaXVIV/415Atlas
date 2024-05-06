@@ -1,0 +1,44 @@
+[Theme]
+DisplayName=Alpha
+ThemeId={897757C4-93BB-4448-9620-7257464DE9F8}
+
+[Control Panel\Desktop]
+Wallpaper=%windir%\AtlasModules\Wallpapers\Alpha.png
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=4
+WindowsSpotlight=0
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Cursors\Posys Cursor Black\Posy Black background max 96.ani
+Arrow=%SystemRoot%\Cursors\Posys Cursor Black\Posy Black default.cur
+Hand=%SystemRoot%\Cursors\Posys Cursor Black\Posy hand.cur
+Help=%SystemRoot%\Cursors\Posys Cursor Black\Posy Black help.cur
+No=%SystemRoot%\Cursors\Posys Cursor Black\Posy forbidden.cur
+NWPen=%SystemRoot%\Cursors\Posys Cursor Black\Posy Black pen.cur
+SizeAll=%SystemRoot%\Cursors\Posys Cursor Black\Posy move.cur
+SizeNESW=%SystemRoot%\Cursors\Posys Cursor Black\Posy Black size NeSw.cur
+SizeNS=%SystemRoot%\Cursors\Posys Cursor Black\Posy Black size NS.cur
+SizeNWSE=%SystemRoot%\Cursors\Posys Cursor Black\Posy Black size NwSe.cur
+SizeWE=%SystemRoot%\Cursors\Posys Cursor Black\Posy Black size EW.cur
+UpArrow=%SystemRoot%\Cursors\Posys Cursor Black\Posy alt.cur
+Wait=%SystemRoot%\Cursors\Posys Cursor Black\Posy wait max 96.ani
+DefaultValue=Posy's Cursor Black
+Crosshair=%SystemRoot%\Cursors\Posys Cursor Black\Posy precise.cur
+IBeam=%SystemRoot%\Cursors\Posys Cursor Black\Posy beam.cur
+
+[Sounds]
+SchemeName=Windows Default
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC40078D4
+SystemMode=Dark
+AppMode=Dark
+VisualStyleVersion=10
+
+[MasterThemeSelector]
+MTSM=RJSPBS
